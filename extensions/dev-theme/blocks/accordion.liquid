@@ -1,0 +1,36 @@
+{{ 'accordion.css' | asset_url | stylesheet_tag }}
+
+<details class="accordion">
+    <summary>{{ block.settings.title }}</summary>
+    <p>{{ block.settings.content }}</p>
+    {% if block.settings.button != blank %}
+        <button>{{ block.settings.button }}</button>
+    {% endif %}
+</details>
+
+{% schema %}
+{
+    "name": "Accordion",
+    "target": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Lorem ipsum dolor sit amet"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "<p><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>"
+        },
+        {
+            "type": "text",
+            "id": "button",
+            "label": "Button",
+            "default": "Est laborum"
+        }
+    ]
+}
+{% endschema %}
