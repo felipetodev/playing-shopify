@@ -1,4 +1,5 @@
 import Hero from "./Hero"
+import Navbar from "./Navbar";
 import { AppProvider as PolarisProvider } from "@shopify/polaris";
 
 export default function App({ home }) {
@@ -6,6 +7,7 @@ export default function App({ home }) {
 
   return (
     <PolarisProvider>
+      <Navbar />
       <Hero />
     </PolarisProvider>
   )

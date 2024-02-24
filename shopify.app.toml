@@ -2,7 +2,7 @@
 
 client_id = "7e041c0498ba2e00d46c39ecc4c8fadd"
 name = "revenue-challenge"
-application_url = "https://keith-rapid-behavior-takes.trycloudflare.com"
+application_url = "https://examining-phpbb-signals-durham.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://keith-rapid-behavior-takes.trycloudflare.com/auth/callback",
-  "https://keith-rapid-behavior-takes.trycloudflare.com/auth/shopify/callback",
-  "https://keith-rapid-behavior-takes.trycloudflare.com/api/auth/callback"
+  "https://examining-phpbb-signals-durham.trycloudflare.com/auth/callback",
+  "https://examining-phpbb-signals-durham.trycloudflare.com/auth/shopify/callback",
+  "https://examining-phpbb-signals-durham.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
