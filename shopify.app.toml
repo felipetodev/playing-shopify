@@ -2,7 +2,7 @@
 
 client_id = "7e041c0498ba2e00d46c39ecc4c8fadd"
 name = "revenue-challenge"
-application_url = "https://examining-phpbb-signals-durham.trycloudflare.com"
+application_url = "https://english-introduced-watershed-clip.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://examining-phpbb-signals-durham.trycloudflare.com/auth/callback",
-  "https://examining-phpbb-signals-durham.trycloudflare.com/auth/shopify/callback",
-  "https://examining-phpbb-signals-durham.trycloudflare.com/api/auth/callback"
+  "https://english-introduced-watershed-clip.trycloudflare.com/auth/callback",
+  "https://english-introduced-watershed-clip.trycloudflare.com/auth/shopify/callback",
+  "https://english-introduced-watershed-clip.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
